@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish Variable', sans-serif;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.container {
+    width: 1145px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+// UTILITY CLASSES
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.grow-1 {
+    flex-grow: 1;
+}
+
+button {
+    border: 0;
+    background-color: #74BC64;
+    border-radius: 999px;
+    height: 44px;
+    display: flex;
+    a {
+        font-size: 14px;
+        color: white;
+        padding: 0 28px;
+        font-weight: 800;
+    }
+}

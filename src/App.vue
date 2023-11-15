@@ -1,9 +1,24 @@
-<script setup>
+<script>
+import AppHeader from './components/AppHeader.vue';
+import AppMain from './components/AppMain.vue';
+import AppFooter from './components/AppFooter.vue';
+import '@fontsource-variable/mulish';
+
+export default {
+  components: {
+    AppHeader,
+    AppMain,
+    AppFooter
+  }
+}
 </script>
 
 <template>
+  <AppHeader/>
+  <AppMain/>
+  <AppFooter/>
 </template>
 
-<style scoped>
-
+<style lang="scss">
+@use './style/general.scss'
 </style>
