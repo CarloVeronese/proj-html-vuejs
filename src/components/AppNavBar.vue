@@ -27,8 +27,7 @@ export default {
                         <span class="new-item" v-show="item.newItem">NEW</span>
                     </li>
                 </ul>
-                <button class="align-center
-                "><a href=""><span>BOOK NOW</span></a></button>
+                <button><a href="">BOOK NOW</a></button>
             </div>
         </div>
     </section>

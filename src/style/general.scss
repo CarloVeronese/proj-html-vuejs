@@ -22,13 +22,17 @@ a {
 }
 
 .container {
-    width: 1145px;
+    width: 1144px;
     margin: 0 auto;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
+}
+
+.col-6 {
+    flex-basis: calc(100% / 12 * 6);
 }
 
 // UTILITY CLASSES
@@ -49,16 +53,37 @@ a {
     flex-grow: 1;
 }
 
+// BUTTONS
+
 button {
     border: 0;
     background-color: #74BC64;
     border-radius: 999px;
     height: 44px;
     display: flex;
+    align-items: center;
+    cursor: pointer;
     a {
+        line-height: 44px;
         font-size: 14px;
         color: white;
-        padding: 0 28px;
         font-weight: 800;
     }
+    * {
+        padding: 0 28px;
+    }
+}
+
+// TITLES AND SUBTITLES
+
+.section-title {
+    font-weight: bold;
+    font-size: 40px;
+}
+.section-subtitle {
+    font-size: 20px;
+    font-weight: 400;
+}
+.section-paragraph {
+    line-height: 29px;
 }
