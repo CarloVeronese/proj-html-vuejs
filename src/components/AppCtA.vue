@@ -31,12 +31,11 @@ export default {
     background-image: url('horizontal-cta-background.jpg');
     background-size: cover;
     background-position: center;
-
+    height: 246px;
+    padding-top: 70px;
     .cta-container {
         display: flex;
         flex-direction: column;
-        padding-top: 65px;
-        height: 240px;
         color: white;
         gap: 12px;
         .section-subtitle {
@@ -48,7 +47,7 @@ export default {
         color: white;
         display: flex;
         gap: 28px;
-        padding-left: 200px;
+        padding-left: 220px;
     }
 }
 </style>

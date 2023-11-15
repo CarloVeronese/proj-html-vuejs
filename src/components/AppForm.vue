@@ -10,7 +10,7 @@
                 <p class="section-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper. Fusce et ultrices libero, at suscipit lacus. Sed vitae fringilla nibh. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper. Fusce et ultrices libero, at suscipit lacus. Sed vitae frangilla nibh.</p>
             </div>
             <div class="col-6 card-container">
-                <div class="card align-center">
+                <div class="card">
                     <div class="card-title">First Lesson Free!</div>
                     <div class="card-paragraph">When you make a block booking with us your first lesson is included free.</div>
                     <div class="form">
@@ -19,7 +19,7 @@
                         <input type="number" placeholder="Telephone">
                         <input type="text" placeholder="Location">
                     </div>
-                    <button class="form-button"><a>REQUEST A CALLBACK</a></button>
+                    <button class="button-green form-button"><a>REQUEST A CALLBACK</a></button>
                 </div>
             </div>
         </div>
@@ -53,22 +53,12 @@
     margin-top: -70px;
     z-index: 1;
     .card {
-        background-color: white;
-        display: flex;
-        flex-direction: column;
         padding: 45px 40px;
         gap: 30px;
-        border-radius: 10px;
-        box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.05);
         .card-title {
             color: $green;
             font-weight: 800;
             font-size: 30px;
-        }
-        .card-paragraph {
-            text-align: center;
-            color: $light-grey;
-            line-height: 26px;
         }
         .form {
             display: flex;

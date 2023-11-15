@@ -56,18 +56,23 @@ a {
 // BUTTONS
 
 button {
-    border: 0;
-    background-color: #74BC64;
     border-radius: 999px;
-    height: 44px;
     display: flex;
     align-items: center;
     cursor: pointer;
     a {
-        line-height: 44px;
-        font-size: 14px;
-        color: white;
         font-weight: 800;
+    }
+}
+
+.button-green {
+    background-color: #74BC64;
+    border: 0;
+    height: 44px;
+    a {
+        font-size: 14px;
+        line-height: 44px;
+        color: white;
     }
     * {
         padding: 0 28px;
@@ -86,4 +91,23 @@ button {
 }
 .section-paragraph {
     line-height: 29px;
+}
+
+// CARD
+
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.05);
+    .card-title {
+        font-weight: 800;
+    }
+    .card-paragraph {
+        text-align: center;
+        color: #929AA3;
+        line-height: 26px;
+    }
 }
