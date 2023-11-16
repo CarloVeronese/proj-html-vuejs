@@ -64,7 +64,7 @@ export default {
     background-position: bottom;
     background-size: cover;
     .container {
-        height: 865px;
+        padding: 200px 0 150px;
         display: flex;
         flex-direction: column;
         align-items: center;
