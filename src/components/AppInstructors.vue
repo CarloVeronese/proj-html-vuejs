@@ -13,7 +13,7 @@ export default {
                 },
                 {
                     ratePerc: 0,
-                    rateType: 'accident'
+                    rateType: 'accident rate'
                 }
             ],
             instructorsProfiles: [
