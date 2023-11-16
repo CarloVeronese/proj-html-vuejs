@@ -99,7 +99,6 @@ export default {
         }
         .rate-card-paragraph {
             color: $light-grey;
-
             font-weight: bold;
         }
     }
@@ -141,14 +140,10 @@ export default {
         display: flex;
         flex-direction: column;
         gap: 50px;
-        .section-title {
-            color: $grey;
-        }
         .instructors-paragraph {
             display: flex;
             gap: 45px;
             .section-paragraph {
-                color: $light-grey;
                 font-size: 20px;
             }
             button {

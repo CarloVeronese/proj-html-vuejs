@@ -56,6 +56,24 @@ a {
     align-items: flex-start;
 }
 
+// COLOR CLASSES
+
+.grey {
+    color: #494C4E;
+}
+
+.green {
+    color: #74BC64;
+}
+
+.dark-grey {
+    color: #353637;
+}
+
+.light-grey {
+    color: #929AA3;
+}
+
 // BUTTONS
 
 button {
@@ -87,12 +105,15 @@ button {
 .section-title {
     font-weight: bold;
     font-size: 40px;
+    color: #494C4E;
 }
 .section-subtitle {
     font-size: 20px;
     font-weight: 400;
+    color: #929AA3;
 }
 .section-paragraph {
+    color: #929AA3;
     line-height: 29px;
 }
 

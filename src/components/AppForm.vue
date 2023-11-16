@@ -37,15 +37,10 @@
     gap: 40px;
     padding-right: 28px;
     .section-title {
-        color: $grey;
         padding: 5px 0;
     }
     .section-subtitle {
-        color: $light-grey;
         line-height: 35px;
-    }
-    .section-paragraph {
-        color: $light-grey;
     }
 }
 .card-container {

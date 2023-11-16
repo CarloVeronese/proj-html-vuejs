@@ -45,13 +45,13 @@ export default {
         <div class="container">
             <h3 class="section-title">Testimonials</h3>
             <h4 class="section-subtitle">Here's what our happy drivers had to say about our services:</h4>
-            <div class="testimonial-profile align-center justify-center" v-for="(profile, testimonialsIdex) in testimonialsArray" v-show="testimonialsIdex === activeTestIndex">
+            <div class="testimonial-profile align-center justify-center light-grey" v-for="(profile, testimonialsIdex) in testimonialsArray" v-show="testimonialsIdex === activeTestIndex">
                 <img :src="`testimonial-${profile.imgPathKey}.png`" alt="" class="testimonial-img">
                 <p class="testimonial-paragraph">{{profile.testimony}}</p>
                 <h4 class="testimonial-name">{{profile.name}}</h4>
             </div>
             <div class="profile-selection">
-                <font-awesome-icon class="selector" v-for="(n, index) in testimonialsArray" :icon="index === activeTestIndex ? 'fa-solid fa-circle' : 'fa-regular fa-circle'" @click="clickSelector(index)"/>
+                <font-awesome-icon class="selector light-grey" v-for="(n, index) in testimonialsArray" :icon="index === activeTestIndex ? 'fa-solid fa-circle' : 'fa-regular fa-circle'" @click="clickSelector(index)"/>
             </div>
         </div>
     </section>
@@ -70,11 +70,7 @@ export default {
         align-items: center;
         justify-content: center;
         gap: 30px;
-        .section-title {
-            color: $grey;
-        }
         .section-subtitle {
-            color: $light-grey;
             font-size: 21px;
         }
         .testimonial-profile {
@@ -88,10 +84,8 @@ export default {
             }
             .testimonial-paragraph {
                 text-align: center;
-                color: $light-grey;
             }
             .testimonial-name {
-                color: $light-grey;
                 font-weight: 800;
             }
         }
@@ -100,7 +94,6 @@ export default {
             gap: 10px;
             .selector {
                 width: 12px;
-                color: $light-grey;
                 cursor: pointer;
             }
         }

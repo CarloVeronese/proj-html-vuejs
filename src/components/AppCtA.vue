@@ -36,10 +36,13 @@ export default {
     .cta-container {
         display: flex;
         flex-direction: column;
-        color: white;
         gap: 12px;
+        .section-title {
+            color: white;
+        }
         .section-subtitle {
             font-weight: bold;
+            color: white;
         }
     }
     .cta-number {
