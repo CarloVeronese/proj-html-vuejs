@@ -41,7 +41,7 @@ export default {
         <div class="container">
             <div class="row justify-between">
                 <div class="card rate-card" v-for="(card, rateIndex) in rates" :class="rateIndex === 1 ? 'middle-card' : 'normal-card'">
-                    <div class="rate justify-center align-center">
+                    <div class="rate justify-center align-center" :class="`rate-${card.ratePerc}`">
                         <span class="rate-perc">{{ card.ratePerc }}%</span>
                     </div>
                     <div class="rate-card-paragraph">{{ card.rateType.toUpperCase() }}</div>
@@ -84,9 +84,23 @@ export default {
     }
     .rate-card {
         padding-top: 50px;
-        padding-bottom: 80px;;
-        .rate {
-            border: 10px solid $green;
+        padding-bottom: 80px;
+        .rate-100 {
+            background: 
+            radial-gradient(closest-side, white 90%, transparent 80% 100%),
+            conic-gradient($green 100%, $egg-white 0);
+        }
+        .rate-95 {
+            background: 
+            radial-gradient(closest-side, white 90%, transparent 80% 100%),
+            conic-gradient($green 95%, $egg-white 0);
+        }
+        .rate-0 {
+            background: 
+            radial-gradient(closest-side, white 90%, transparent 80% 100%),
+            conic-gradient($green 1%, $egg-white 0);
+        }
+        .rate { 
             color: $light-grey;
             border-radius: 50%;
             width: 220px;
@@ -105,6 +119,7 @@ export default {
     .instructor-card {
         padding: 40px 40px 65px;
         margin-bottom: -90px;
+        cursor: pointer;
         .instructor-name {
             color: $grey;
             font-size: 24px;
@@ -128,6 +143,11 @@ export default {
             text-align: center;
             font-size: 16px;
             line-height: 30px;
+        }
+        &:hover {
+            img {
+                box-shadow: 0px 12px 10px 5px rgba(0, 0, 0, 0.05);
+            }
         }
     }
     .card {

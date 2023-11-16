@@ -63,6 +63,7 @@ export default {
     background-image: url('testimonial-background.jpg');
     background-position: bottom;
     background-size: cover;
+    height: 836px;
     .container {
         padding: 200px 0 150px;
         display: flex;

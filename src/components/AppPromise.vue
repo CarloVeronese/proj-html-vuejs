@@ -109,6 +109,12 @@ export default {
                             padding: 0 20px;
                             font-size: 12px;
                         }
+                        &:hover {
+                            border-color: $green;
+                            a {
+                                color: $green;
+                            }
+                        }
                     }
                 }
             }

@@ -12,7 +12,6 @@ export default {
   },
   methods: {
     scrollUpPage() {
-      console.log('ciao');
       window.scrollTo({
         top: 0,
         behavior: 'smooth'

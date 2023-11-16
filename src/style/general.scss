@@ -109,6 +109,11 @@ button {
     * {
         padding: 0 28px;
     }
+    &:hover {
+        a {
+            transform: scale(1.1);
+        }
+    }
 }
 
 // TITLES AND SUBTITLES
