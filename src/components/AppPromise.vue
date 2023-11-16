@@ -48,7 +48,20 @@ export default {
         background-size: cover;
         background-position: bottom;
         background-repeat: no-repeat;
+        position: relative;
         height: 517px;
+        &::after {
+            content: '';
+            position: absolute;
+            border-top-right-radius: 50% 100%;
+            border-top-left-radius: 50% 100%;
+            bottom: -78px;
+            height: 80px;
+            width: 100%;
+            transform: rotate(180deg);
+            z-index: 1;
+            background-color: #E4E9ED;
+        }
         .container {
             display: flex;
             gap: 40px;
@@ -58,6 +71,7 @@ export default {
                 gap: 40px;
                 position: relative;
                 margin-top: -30px;
+                z-index: 2;
                 .card-title {
                     font-size: 40px;
                     padding-bottom: 10px;
