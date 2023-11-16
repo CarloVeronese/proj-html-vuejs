@@ -12,7 +12,7 @@ export default {
         <div class="row justify-between">
             <h4>We have a 95% Successful Pass Rate!</h4>
             <h4 class="call align-center">
-                <font-awesome-icon icon="fa-solid fa-phone" flip="horizontal" />
+                <font-awesome-icon icon="fa-solid fa-phone-flip" />
                 <div>
                     <span>Give us a call to book your tuition!</span>
                     <span class="company-number">{{ companyNumber }}</span>

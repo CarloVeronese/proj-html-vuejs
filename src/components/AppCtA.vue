@@ -18,7 +18,7 @@ export default {
                     <h4 class="section-subtitle">Give us a call to to schedule your first driving lesson</h4>
                 </div>
                 <div class="col-6 cta-number align-center">
-                    <font-awesome-icon icon="fa-solid fa-phone" flip="horizontal"/>
+                    <font-awesome-icon icon="fa-solid fa-phone-flip"/>
                     <span>{{ store.companyNumber }}</span>
                 </div>
             </div>
