@@ -54,7 +54,7 @@ export default {
                     <button class="button-green justify-center"><a href="">MORE ABOUT US</a></button>
                 </div>
             </div>
-                <div class="row justify-between">
+                <div class="row justify-between align-start">
                     <div class="card instructor-card" v-for="(instructor, index) in instructorsProfiles" :class="index === 1 ? 'middle-card' : 'normal-card'">
                         <img :src="instructor.imgPath" alt="" :class="index === 1 ? 'instructor-main-img' : 'instructor-img'">
                         <h3 class="instructor-name">{{ instructor.name }}</h3>
@@ -104,7 +104,8 @@ export default {
         }
     }
     .instructor-card {
-        padding: 40px;
+        padding: 40px 40px 65px;
+        margin-bottom: -90px;
         .instructor-name {
             color: $grey;
             font-size: 24px;
