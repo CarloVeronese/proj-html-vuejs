@@ -9,16 +9,25 @@ export default {
     AppHeader,
     AppMain,
     AppFooter
+  },
+  methods: {
+    scrollUpPage() {
+      console.log('ciao');
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }
   }
 }
 </script>
 
 <template>
-  <AppHeader/>
-  <AppMain/>
-  <AppFooter/>
+  <AppHeader />
+  <AppMain />
+  <AppFooter @scroll-up="scrollUpPage()"/>
 </template>
 
 <style lang="scss">
-@use './style/general.scss'
+@use './style/general.scss';
 </style>
