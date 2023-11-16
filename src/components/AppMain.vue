@@ -5,6 +5,7 @@ import AppPromise from './AppPromise.vue';
 import AppInstructors from './AppInstructors.vue';
 import AppTestimonials from './AppTestimonials.vue';
 import AppLatestNews from './AppLatestNews.vue';
+import AppNewsLetter from './AppNewsLetter.vue';
 export default {
     components: {
         AppForm,
@@ -12,7 +13,8 @@ export default {
         AppPromise,
         AppInstructors,
         AppTestimonials,
-        AppLatestNews
+        AppLatestNews,
+        AppNewsLetter
     }
 }
 </script>
@@ -24,6 +26,7 @@ export default {
     <AppInstructors />
     <AppTestimonials />
     <AppLatestNews />
+    <AppNewsLetter />
 </template>
 
 <style lang="scss" scoped>

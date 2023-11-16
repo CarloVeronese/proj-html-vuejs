@@ -61,11 +61,7 @@
             width: 100%;
             gap: 30px;
             input {
-                line-height: 52px;
-                padding: 0 10px;
                 background-color: $egg-white;
-                border: 1px solid rgba(128, 128, 128, 0.266);
-                border-radius: 5px;
             }
         }
         .form-button {

@@ -51,18 +51,18 @@ export default {
 @use '../style/partials/variables.scss' as*;
     .latest-news-section {
         background-image: url('latestnews-background.jpg');
-        height: 875px;
+        // height: 875px;
         background-position: bottom;
         background-size: cover;
         display: flex;
         .card {
             border-top: 5px solid $dark-blue;
-            margin-top: -50px;
-            padding: 75px 0;
+            margin: -50px 0 180px;
+            padding: 75px 0 20px;
             gap: 65px;
             position: relative;
             box-shadow: 0px 20px 10px 10px rgba(0, 0, 0, 0.08);
-            border-radius: 10px 10px 0 0;
+            border-radius: 10px 10px 5px 5px;
             .latest-news {
                 display: flex;
                 gap: 28px;
@@ -87,6 +87,7 @@ export default {
             .news-bottom {
                 position: absolute;
                 top: 100%;
+                margin: -1px;
             }
         }
     }
