@@ -22,12 +22,12 @@ export default {
                 {
                     name: 'Kate Malone',
                     imgPathKey: 'kate',
-                    testimony: "Nope it's not Ashton Kutcher, it's Kate Malone. Equally handsome, equally smart."
+                    testimony: "Me mechanic not speak English. But he know what me mean when me say “car no go”, and we best friends. So me think: why waste time, say lot word when few word do trick?"
                 },
                 {
                     name: 'Kelly Kapoor',
                     imgPathKey: 'kelly',
-                    testimony: "I swallowed a tapeworm last night. It's going to grow up to three feet inside of me and then it eats all my food so that I don't get fat. And then after three months I take some medicine and then I pass it. Creed sold it to me. It's from Mexico."
+                    testimony: "I swallowed a tapeworm last night. It's going to grow up to three feet inside of me and then it eats all my food so that I don't get fat. Creed sold it to me. It's from Mexico."
                 }
             ]
         }
